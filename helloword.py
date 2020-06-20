@@ -261,9 +261,9 @@
 # # Creating Virtual Enviroments
 # pip install virtualenv
 
-# # Windows System
+# Windows System
 # python -m venv <folder name>
-# # OSX/Linux (bash)
+# OSX/Linux (bash)
 # virtualenv <folder name>
 
 import requests
