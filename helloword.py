@@ -239,12 +239,12 @@
 # helpers.display('Not a warning!!')
 
 # # import all into current namespace
-# from helpers import *
-# display('Not a warning!!')
+from helpers import display 
+display('Not a warning!!', True)
 
-# #import specific item(s) into current namespace
-# from helpers import display
-# display('Not a warning!!')
+#import specific item(s) into current namespace
+from helpers import display
+display('Not a warning!!')
 
 # # INSTALLING PACKAGES
 # #install an individual package
@@ -275,3 +275,7 @@ import sys
 print (sys.version)
 r = requests.get("https://coreyms.com")
 print(r.status_code)
+
+# CALLING AN API
+
+

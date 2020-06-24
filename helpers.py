@@ -1,4 +1,7 @@
+from colorama import init, Fore
+
 def display(message, is_warning=False):
     if is_warning:
-        print('Warning!!')
-    print(message)
+        print(Fore.RED + 'Warning!!')
+    else:
+        print(Fore.BLUE + message)
